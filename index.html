@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>amirmahdi karami — Portfolio</title>
+    <meta name="description" content="Personal portfolio website for Software Engineering Course AUT. HTML, CSS, JavaScript. No frameworks.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="nav">
+      <a class="brand" href="#home">am-ma-karami</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+      <nav id="nav-menu" class="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="section hero">
+        <div class="container grid-2">
+          <div>
+            <h1>Hi, I'm amirmahdi karami</h1>
+            <p>Software Engineering @ AUT. I build responsive, accessible websites using HTML, CSS, and JavaScript.</p>
+            <div class="cta-group">
+              <a class="btn primary" href="#projects">View Projects</a>
+              <a class="btn" href="assets/AmirMahdi-Karami-CV.pdf" download>Download CV</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="images/avatar282049821.jpg" alt="Profile image" />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            Passionate about front-end development, UI/UX, and performance. I enjoy crafting clean, maintainable code and
+            responsive interfaces. This portfolio is built without frameworks to focus on fundamentals.
+          </p>
+          <div class="chips">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS (Flex/Grid)</span>
+            <span class="chip">JavaScript (ES6)</span>
+            <span class="chip">Git & GitHub</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section alt">
+        <div class="container">
+          <h2>Experience</h2>
+          <ul class="timeline">
+            <li>
+              <h3>AUT — Software Engineering Student</h3>
+              <span class="muted">2024 — Present</span>
+              <p>Academic projects focusing on web development fundamentals and software design principles.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Portfolio 2025</h3>
+              <p>Responsive personal portfolio (HTML/CSS/JS) to be deployed on GitHub Pages.</p>
+              <a class="btn small" href="https://github.com/am-ma-karami/portfolio-2025" target="_blank" rel="noopener">GitHub</a>
+            </article>
+            <article class="card">
+              <h3>To‑Do App (JS)</h3>
+              <p>Minimal to‑do app using localStorage. Responsive and accessible controls.</p>
+              <a class="btn small" href="https://github.com/am-ma-karami/todo-app-js" target="_blank" rel="noopener">GitHub</a>
+            </article>
+            <article class="card">
+              <h3>Image Gallery (JS)</h3>
+              <p>Responsive image grid with lightbox and keyboard navigation.</p>
+              <a class="btn small" href="https://github.com/am-ma-karami/image-gallery-js" target="_blank" rel="noopener">GitHub</a>
+            </article>
+            <article class="card">
+              <h3>Weather Widget (JS)</h3>
+              <p>Client-side weather widget with a public API and error states.</p>
+              <a class="btn small" href="https://github.com/am-ma-karami/weather-widget-js" target="_blank" rel="noopener">GitHub</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section alt">
+        <div class="container">
+          <h2>Contact</h2>
+          <ul class="contact-list">
+            <li><a href="mailto:you@example.com">you@example.com</a></li>
+            <li><a href="https://github.com/am-ma-karami" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/your-handle" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <span>© Sep 2025 — Personal Portfolio Website Project — AUT</span>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
+  </html>
+
