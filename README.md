@@ -35,7 +35,8 @@ python3 -m http.server 8000
 ```
 
 ## Screenshots
-Place images in `screenshots/` and reference them here.
+- Desktop view: ![Desktop Screenshot](screenshots/desktop.png)
+- Mobile view: ![Mobile Screenshot](screenshots/mobile.png)
 
 ## Commit Policy
 Follow conventional-like messages:
