@@ -21,7 +21,7 @@ Responsive personal portfolio website built with HTML, CSS, and JavaScript (no f
 - Responsive design
 
 ## Live Demo
-- GitHub Pages: https://am-ma-karami.github.io/portfolio-2025 (coming soon)
+- GitHub Pages: https://am-ma-karami.github.io/portfolio-2025
 
 ## Getting Started
 ```bash
